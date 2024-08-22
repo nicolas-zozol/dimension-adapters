@@ -55,6 +55,25 @@ const config:Record<string, ChainConfig> = {
         id: '2',
         firstDayVolume: 0
     },
+    [CHAIN.SCROLL]: {
+        api: "https://api.goldsky.com/api/public/project_clws2t7g7ae9c01xsbnu80a51/subgraphs/swaapv2-scroll/prod/gn",
+        start: 1719508309,
+        id: '2',
+        firstDayVolume: 0
+    },
+    [CHAIN.LINEA]: {
+        api: "https://api.goldsky.com/api/public/project_clws2t7g7ae9c01xsbnu80a51/subgraphs/swaapv2-linea/prod/gn",
+        start: 1719507890,
+        id: '2',
+        firstDayVolume: 0
+    },
+    [CHAIN.MANTLE]: {
+        api: "https://api.goldsky.com/api/public/project_clws2t7g7ae9c01xsbnu80a51/subgraphs/swaapv2-linea/prod/gn",
+        start: 1719508654,
+        id: '2',
+        firstDayVolume: 0
+    },
+
 }
 
 interface Data {
