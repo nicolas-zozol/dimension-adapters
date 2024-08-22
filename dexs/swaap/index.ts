@@ -189,6 +189,18 @@ const adapter: BreakdownAdapter = {
                 fetch: v2graphs,
                 start: 1714652681,
             },
+            [CHAIN.SCROLL]: {
+                fetch: v2graphs,
+                start: 1719508309,
+            },
+            [CHAIN.LINEA]: {
+                fetch: v2graphs,
+                start: 1719507890,
+            },
+            [CHAIN.MANTLE]: {
+                fetch: v2graphs,
+                start: 1719508654,
+            },
 
         }
     }
